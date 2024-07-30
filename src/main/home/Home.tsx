@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Home.module.css'
-import imageJpg from './image/01.jpg';
 import imageWebp from './image/01.webp'
 
 
@@ -16,7 +15,7 @@ export const Home = () => {
             <div className={style.main__photo}>
                 <picture>
                     <source srcSet={imageWebp} type="image/webp"/>
-                    <img src={imageJpg} alt="My photo"/>
+                    <img src={imageWebp} alt="My photo"/>
                 </picture>
             </div>
         </div>
