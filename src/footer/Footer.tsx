@@ -10,7 +10,7 @@ export const Footer = () => {
                 <div className={style.footer__body}>
                     <div className={style.footer__contacts}>
                         <ul className={style.footer__list}>
-                            <li><a target="newtab" href="https://drive.google.com/file/d/1MVSCu-5prGNdx-HiAHHv7u4EVsbaq3rb/view?usp=drive_link">Resume</a></li>
+                            <li><a target="newtab" href="https://drive.google.com/file/d/1nV6UhzBN_JnXCIFIyQVH8Pn6kcKTv6by/view?usp=sharing">Resume</a></li>
                             <li><a href="mailto:iamrasulrustamov@gmail.com">iamrasulrustamov@gmail.com</a></li>
                         </ul>
                         <div className={style.footer__icons}>

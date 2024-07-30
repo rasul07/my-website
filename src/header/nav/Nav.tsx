@@ -22,7 +22,7 @@ export const Nav = (props:NavPropsType) => {
                 <li className={style.header__link} onClick={() => handleNavClick('about')}><a>About</a></li>
                 <li className={style.header__link} onClick={() => handleNavClick('skills')}><a>Skills</a></li>
                 {/* <li className={style.header__link} onClick={() => handleNavClick('project')}><a>Projects</a></li> */}
-                <li className={style.header__link}><a target="newtab" href="https://drive.google.com/file/d/1MVSCu-5prGNdx-HiAHHv7u4EVsbaq3rb/view?usp=drive_link">Resume</a></li>
+                <li className={style.header__link}><a target="newtab" href="https://drive.google.com/file/d/1nV6UhzBN_JnXCIFIyQVH8Pn6kcKTv6by/view?usp=sharing">Resume</a></li>
             </ul>
         </nav>
     );
